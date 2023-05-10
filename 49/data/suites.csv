@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed May 10 23:57:05 GMT 2023","Wed May 10 23:57:08 GMT 2023","3156","","tests.SelenideIT","","tests.SelenideIT","vsyatKreditMts","Провальная попытка заполнения заявки на кредит","Неправильно вводим почту в заявке и проверяем, что вышло сообщение об ошибке"
