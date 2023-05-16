@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue May 16 00:04:25 GMT 2023","Tue May 16 00:05:05 GMT 2023","39792","","tests.SelenideTest","","tests.SelenideTest","vsyatKreditMts","vsyatKreditMts()",""
