@@ -1,0 +1,1 @@
+[{"uid":"24ab383b51bada6d","name":"vsyatKreditMTS()","time":{"start":1684285671037,"stop":1684285672155,"duration":1118},"status":"broken","severity":"normal"},{"uid":"a5a7044c03e6d4fe","name":"vsyatCardMTS()","time":{"start":1684285666382,"stop":1684285670945,"duration":4563},"status":"broken","severity":"normal"}]
