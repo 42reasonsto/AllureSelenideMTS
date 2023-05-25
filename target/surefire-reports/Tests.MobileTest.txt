@@ -1,0 +1,194 @@
+-------------------------------------------------------------------------------
+Test set: Tests.MobileTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 4, Errors: 7, Skipped: 0, Time elapsed: 57.593 s <<< FAILURE! - in Tests.MobileTest
+takePaymentAccount  Time elapsed: 44.418 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e74a97a59c2a31cfd545dd69393ca4f6, get {url=https://www.mtsbank.ru/}]
+selenide.url: https://www.mtsbank.ru/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir23076_103...}, goog:chromeOptions: {debuggerAddress: localhost:55661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55661/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: e74a97a59c2a31cfd545dd69393ca4f6
+	at Tests.MobileTest.takePaymentAccount(MobileTest.java:102)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at Tests.MobileTest.takePaymentAccount(MobileTest.java:102)
+Caused by: java.net.SocketException: Connection reset
+
+takeATMAdress  Time elapsed: 44.42 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fb1c9a297edf4a4abc79ab17dd50592, get {url=https://www.mtsbank.ru/}]
+selenide.url: https://www.mtsbank.ru/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir11412_199...}, goog:chromeOptions: {debuggerAddress: localhost:55646}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55646/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: 1fb1c9a297edf4a4abc79ab17dd50592
+	at Tests.ComputerTest.takeATMAdress(ComputerTest.java:89)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at Tests.ComputerTest.takeATMAdress(ComputerTest.java:89)
+Caused by: java.net.SocketException: Connection reset
+
+takeLoanMTS  Time elapsed: 44.555 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc1343ec77f6fad5d3ebf9bf7d018def, get {url=https://www.mtsbank.ru/}]
+selenide.url: https://www.mtsbank.ru/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir10384_207...}, goog:chromeOptions: {debuggerAddress: localhost:55660}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55660/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: dc1343ec77f6fad5d3ebf9bf7d018def
+	at Tests.MobileTest.takeLoanMTS(MobileTest.java:41)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at Tests.MobileTest.takeLoanMTS(MobileTest.java:41)
+Caused by: java.net.SocketException: Connection reset
+
+takeVk  Time elapsed: 44.555 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16df1a8bf94d89e12ee7ef791dcfcc1e, get {url=https://www.mtsbank.ru/}]
+selenide.url: https://www.mtsbank.ru/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir23888_174...}, goog:chromeOptions: {debuggerAddress: localhost:55680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55680/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: 16df1a8bf94d89e12ee7ef791dcfcc1e
+	at Tests.MobileTest.takeVk(MobileTest.java:115)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at Tests.MobileTest.takeVk(MobileTest.java:115)
+Caused by: java.net.SocketException: Connection reset
+
+takeCardMTS  Time elapsed: 44.556 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e461d4cff79b1fef2ceef5c7dc8262e0, get {url=https://www.mtsbank.ru/}]
+selenide.url: https://www.mtsbank.ru/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir24332_195...}, goog:chromeOptions: {debuggerAddress: localhost:55669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55669/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: e461d4cff79b1fef2ceef5c7dc8262e0
+	at Tests.ComputerTest.takeCardMTS(ComputerTest.java:63)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at Tests.ComputerTest.takeCardMTS(ComputerTest.java:63)
+Caused by: java.net.SocketException: Connection reset
+
+takeVk  Time elapsed: 48.138 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) 
+Host info: host: 'HUMMER', ip: '10.8.27.59'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --no-sandbox, --remote-allow-origins=*, --window-size=1366,768], excludeSwitches: [enable-automation, load-extension], extensions: [], mobileEmulation: {deviceName: Nexus 5}, prefs: {credentials_enable_service: false, download.default_directory: D:\Развитие\Программировани..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: normal, unhandledPromptBehavior: accept}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --no-sandbox, --remote-allow-origins=*, --window-size=1366,768], excludeSwitches: [enable-automation, load-extension], extensions: [], mobileEmulation: {deviceName: Nexus 5}, prefs: {credentials_enable_service: false, download.default_directory: D:\Развитие\Программировани..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: normal, unhandledPromptBehavior: accept}}]
+selenide.url: https://www.mtsbank.ru/
+selenide.baseUrl: http://localhost:8080
+	at Tests.ComputerTest.takeVk(ComputerTest.java:115)
+
+takeMortgageMTS  Time elapsed: 48.333 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f4bd31ddd9010f5df8c9e5ec8a246df, get {url=https://www.mtsbank.ru/}]
+selenide.url: https://www.mtsbank.ru/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir30244_242...}, goog:chromeOptions: {debuggerAddress: localhost:55816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55816/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: 0f4bd31ddd9010f5df8c9e5ec8a246df
+	at Tests.MobileTest.takeMortgageMTS(MobileTest.java:77)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at Tests.MobileTest.takeMortgageMTS(MobileTest.java:77)
+Caused by: java.net.SocketException: Connection reset
+
+takeATMAdress  Time elapsed: 56.783 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: (//*[@class='LinkWrapper-sc-a7l7fm-0 eaxjcO sc-cTkxnA hVRtzw'])[3]}
+Expected: visible
+Page source: file:/D:/Развитие/Программирование/javaproject/AllureSelenideMTS-main/build/reports/tests/1685034020759.0.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: target window already closed
+	at Tests.MobileTest.takeATMAdress(MobileTest.java:90)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff996d083741518000545d9d135a2be7, findElement {using=xpath, value=(//*[@class='LinkWrapper-sc-a7l7fm-0 eaxjcO sc-cTkxnA hVRtzw'])[3]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir20296_582...}, goog:chromeOptions: {debuggerAddress: localhost:54664}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54664/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff996d083741518000545d9d135a2be7
+	at Tests.MobileTest.takeATMAdress(MobileTest.java:90)
+
+takeLoanMTS  Time elapsed: 56.783 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: (//*[@class='sc-jJEKmz ejANpH'])[3]}
+Expected: visible
+Page source: file:/D:/Развитие/Программирование/javaproject/AllureSelenideMTS-main/build/reports/tests/1685034020759.1.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: target window already closed
+	at Tests.ComputerTest.takeLoanMTS(ComputerTest.java:42)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fdeff66af24a77cb5d964c6eb98a60a, findElement {using=xpath, value=(//*[@class='sc-jJEKmz ejANpH'])[3]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir20352_216...}, goog:chromeOptions: {debuggerAddress: localhost:54685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54685/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fdeff66af24a77cb5d964c6eb98a60a
+	at Tests.ComputerTest.takeLoanMTS(ComputerTest.java:42)
+
+takePaymentAccount  Time elapsed: 56.874 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: (//*[@class='LinkWrapper-sc-a7l7fm-0 eaxjcO sc-cTkxnA hVRtzw'])[1]}
+Expected: visible
+Page source: file:/D:/Развитие/Программирование/javaproject/AllureSelenideMTS-main/build/reports/tests/1685034020859.2.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: target window already closed
+	at Tests.ComputerTest.takePaymentAccount(ComputerTest.java:102)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01c083378bf0e3df91f928577c03775e, findElement {using=xpath, value=(//*[@class='LinkWrapper-sc-a7l7fm-0 eaxjcO sc-cTkxnA hVRtzw'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir7620_1963...}, goog:chromeOptions: {debuggerAddress: localhost:54661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54661/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01c083378bf0e3df91f928577c03775e
+	at Tests.ComputerTest.takePaymentAccount(ComputerTest.java:102)
+
+takeCardMTS  Time elapsed: 57.416 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@class='sc-jJEKmz ejANpH']}
+Expected: visible
+Page source: file:/D:/Развитие/Программирование/javaproject/AllureSelenideMTS-main/build/reports/tests/1685034021394.3.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: target window already closed
+	at Tests.MobileTest.takeCardMTS(MobileTest.java:64)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b39c66cbae841a26ef5c6da99127bbe, findElement {using=xpath, value=//*[@class='sc-jJEKmz ejANpH']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: D:\Temp\scoped_dir21152_128...}, goog:chromeOptions: {debuggerAddress: localhost:54649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54649/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b39c66cbae841a26ef5c6da99127bbe
+	at Tests.MobileTest.takeCardMTS(MobileTest.java:64)
+

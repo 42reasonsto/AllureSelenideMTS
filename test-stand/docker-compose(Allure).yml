@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  allure:
+    image: allure/allure:lts
+    user: root
+    volumes:
+      - /home/web/test-stand/work/allure:/var/allure_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8888:8080
+    network_mode: bridge
