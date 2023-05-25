@@ -34,7 +34,7 @@ public class OfficesAndAtmPage {
         return this;
     }
 
-    @Step("Ввод места поиска банкомата")
+    @Step("Ввод города банкомата")
     public OfficesAndAtmPage region(String region) {
         Data data = Data.builder()
                 .region(region)
